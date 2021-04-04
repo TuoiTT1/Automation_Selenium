@@ -11,7 +11,7 @@ public class GoogleTest {
     @Test
     public void test() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver",
-                "F:\\program\\driver\\chromedriver.exe" );
+                "D:\\TuoiTran\\git\\Automation_Selenium\\Automation_Selenium\\driver\\chromedriver.exe" );
         WebDriver driver = new ChromeDriver();
         driver.get("http://google.com");
 
