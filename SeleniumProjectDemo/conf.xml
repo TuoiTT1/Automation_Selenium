@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Parallel test suite" parallel="tests">
+    <test name="Windows_Chrome_Test">
+        <parameters>
+<!--        Parameters which will be passed to TestNG annotation @Parameters-->
+            <parameter name="platform" value="windows" />
+            <parameter name="browser" value="Chrome" />
+        </parameters>
+        <classes>
+<!--            Class name which includes tests which will be executed-->
+            <class name="tests.GoogleSearchTest" />
+        </classes>
+    </test>
+    <test name="Windows_firefox_test">
+        <parameters>
+            <parameter name="platform" value="windows" />
+            <parameter name="browser" value="Firefox" />
+        </parameters>
+        <classes>
+            <class name="tests.GoogleSearchTest" />
+        </classes>
+    </test>
+</suite>
