@@ -14,15 +14,29 @@ public class NavigationBarPage extends BasePage {
     @FindBy(how = How.XPATH, using = "//ul[@id='menu_1']/li/a[contains(text(), 'Inventory')]")
     private WebElement inventoryLink;
 
+    @FindBy(how = How.XPATH, using = "//ul[@id='menu_1']/li/a[contains(text(), 'Settings')]")
+    private WebElement settingsLink;
+
+    @FindBy(how = How.XPATH, using = "//ul[@id='menu_6']/li/a[contains(text(), 'Contact Information')]")
+    private WebElement contactInfoLink;
+
     public NavigationBarPage(WebDriver driver) {
         super(driver);
     }
 
-    public void clickWarehouse(){
+    public void clickWarehouse() {
         warehouseLink.click();
     }
 
-    public void clickInventory(){
+    public void clickInventory() {
         inventoryLink.click();
+    }
+
+    public void clickSettings() {
+        settingsLink.click();
+    }
+
+    public void clickContactInfo(){
+        contactInfoLink.click();
     }
 }

@@ -5,74 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef896fbb-1abe-46f9-82c2-ad3487d9f2eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumDataDrivenTestingProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/WarehouseSearchResult.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/output/WarehouseTestCaseResult.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1618759753285.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1618760130549.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1618762244561.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1618762377138.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1618762610265.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1618763130000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1618763197606.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1618768036659.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cores/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cores/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cores/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cores/TestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cores/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NavigationBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WarehousePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/WarehouseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/TestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/GooglePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/NavigationBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/WarehousePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/tests/GoogleSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/tests/WarehouseTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/core/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/ExcelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/core/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/core/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/data_test/DataTestProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/data_test/DataTestProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/assignment/CreateEmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/CreateEmailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/assignment/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/assignment/ProductAmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/ProductAmazonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/assignment/ProductMyStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/ProductMyStorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/erp/CreateMarketingCampaignPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/CreateMarketingCampaignPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/erp/CreateMarketingCampaignSuccessfullyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/CreateMarketingCampaignSuccessfullyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/erp/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/ForgotPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/erp/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/erp/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/pages/erp/MarketingCampaignPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/MarketingCampaignPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/assignment/CreateEmailPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/CreateEmailPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/assignment/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/assignment/ProductAmazonPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/ProductAmazonPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/assignment/ProductMyStorePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/ProductMyStorePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/erp/CreateMarketingCampaignPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/CreateMarketingCampaignPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/erp/CreateMarketingCampaignSuccessfullyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/CreateMarketingCampaignSuccessfullyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/erp/ERPTestALL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/ERPTestALL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/erp/ForgotPasswordPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/ForgotPasswordPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/erp/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/erp/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment3/testes/erp/MarketingCampaignPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/MarketingCampaignPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619006421073.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619012955607.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619013251171.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619013391283.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619013728173.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619014154360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619022556596.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619022571057.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619022987246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619022999461.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619023441854.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/screenshots/[TestClass name=class tests.WarehouseTest]_1619023680381.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_tests/GenerationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContactInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_data/WarehouseSearch.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cores/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cores/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NavigationBarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NavigationBarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WarehousePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WarehousePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/WarehouseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/WarehouseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cores/ExcelUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cores/ExcelUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/InventoryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/NavigationBarPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/NavigationBarPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/WarehousePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/WarehousePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/WarehouseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/WarehouseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/conf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/core/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/GooglePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/NavigationBarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/NavigationBarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/WarehousePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/pages/WarehousePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/tests/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/tests/GoogleSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/tests/WarehouseTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/assignment4/tests/WarehouseTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/core/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/data_test/DataTestProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/data_test/DataTestProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/CreateEmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/CreateEmailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/ProductAmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/ProductAmazonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/ProductMyStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/assignment/ProductMyStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/CreateMarketingCampaignPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/CreateMarketingCampaignPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/CreateMarketingCampaignSuccessfullyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/CreateMarketingCampaignSuccessfullyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/MarketingCampaignPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/pages/erp/MarketingCampaignPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/CreateEmailPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/CreateEmailPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/ProductAmazonPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/ProductAmazonPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/ProductMyStorePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/assignment/ProductMyStorePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/CreateMarketingCampaignPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/CreateMarketingCampaignPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/CreateMarketingCampaignSuccessfullyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/CreateMarketingCampaignSuccessfullyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/ERPTestALL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/ERPTestALL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/ForgotPasswordPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/ForgotPasswordPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/MarketingCampaignPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProjectDemo/src/main/java/com/selenium/driven/testes/erp/MarketingCampaignPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SeleniumProjectDemo/target/classes/com/selenium/assignment3/testes/erp/ERPTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +124,7 @@
       <recent name="D:\TuoiTran\git\Automation_Selenium\Automation_Selenium\SeleniumDataDrivenTestingProject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WarehouseTest.verifyInventoryPage">
+  <component name="RunManager" selected="TestNG.WarehouseTest.verifyWarehousesSearchResults">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -132,6 +132,24 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerationData.genDataForSearchWarehouseById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumDataDrivenTestingProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data_tests" />
+      <option name="MAIN_CLASS_NAME" value="data_tests.GenerationData" />
+      <option name="METHOD_NAME" value="genDataForSearchWarehouseById" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,7 +173,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarehouseTest.verifyInventoryPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WarehouseTest.verifyCreateNewWarehouses" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumDataDrivenTestingProject" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +183,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.WarehouseTest" />
-      <option name="METHOD_NAME" value="verifyInventoryPage" />
+      <option name="METHOD_NAME" value="verifyCreateNewWarehouses" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,7 +191,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarehouseTest.verifyWarehousePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WarehouseTest.verifySettingsPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumDataDrivenTestingProject" />
       <extension name="coverage">
         <pattern>
@@ -183,7 +201,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.WarehouseTest" />
-      <option name="METHOD_NAME" value="verifyWarehousePage" />
+      <option name="METHOD_NAME" value="verifySettingsPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -211,10 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WarehouseTest.verifyInventoryPage" />
-        <item itemvalue="TestNG.WarehouseTest" />
         <item itemvalue="TestNG.WarehouseTest.verifyWarehousesSearchResults" />
-        <item itemvalue="TestNG.WarehouseTest.verifyWarehousePage" />
+        <item itemvalue="TestNG.GenerationData.genDataForSearchWarehouseById" />
+        <item itemvalue="TestNG.WarehouseTest" />
+        <item itemvalue="TestNG.WarehouseTest.verifySettingsPage" />
+        <item itemvalue="TestNG.WarehouseTest.verifyCreateNewWarehouses" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +247,9 @@
       <updated>1618739765675</updated>
       <workItem from="1618739767082" duration="5005000" />
       <workItem from="1618744959158" duration="13635000" />
+      <workItem from="1618845328812" duration="1180000" />
+      <workItem from="1618996874960" duration="9976000" />
+      <workItem from="1619012650326" duration="6111000" />
     </task>
     <servers />
   </component>
@@ -236,16 +258,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/WarehousePage.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

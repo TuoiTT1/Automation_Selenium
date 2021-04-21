@@ -36,8 +36,8 @@ public class ExcelUtils {
         String value = "";
         if (cell != null) {
             try {
-                FormulaEvaluator formulaEvaluator = workbook.getCreationHelper().createFormulaEvaluator();
-                switch (formulaEvaluator.evaluateFormulaCell(cell)) {
+
+                switch (cell.getCellType()) {
                     case XSSFCell.CELL_TYPE_NUMERIC -> value = String.valueOf(cell.getNumericCellValue());
                     case XSSFCell.CELL_TYPE_STRING -> value = cell.getStringCellValue();
                     case XSSFCell.CELL_TYPE_BOOLEAN -> value = String.valueOf(cell.getBooleanCellValue());
@@ -138,7 +138,7 @@ public class ExcelUtils {
         cell.setCellValue(testCase.getResult());
     }
 
-    public Object[][] getTableArray(String filePath, String sheetName, int startCol, int totalCols, int startRow) throws Exception {
+    public static Object[][] getTableArray(String filePath, String sheetName, int startCol, int totalCols, int startRow) throws Exception {
         String[][] tabArr = null;
         try {
             fis = new FileInputStream(filePath);
@@ -147,16 +147,18 @@ public class ExcelUtils {
 
             int ci, cj;
             int totalRows = sheet.getLastRowNum();
-            int totalColums = startCol + totalCols;
+            int totalColumns = startCol + totalCols;
 
             tabArr = new String[totalRows][totalCols];
             ci = 0;
             for (int i = startRow; i <= totalRows; i++) {
                 cj = 0;
-                for (int j = startCol; j <= totalColums; j++) {
+                for (int j = startCol; j < totalColumns; j++) {
                     tabArr[ci][cj] = getValueCell(i, j);
                     System.out.println("p: " + tabArr[ci][cj]);
+                    cj++;
                 }
+                ci++;
             }
 
         } catch (IOException e) {
@@ -166,5 +168,41 @@ public class ExcelUtils {
             close();
         }
         return tabArr;
+    }
+
+    public static void writeExcel(Object[][] objects, String sheetName, String filePath){
+        workbook = new XSSFWorkbook();
+        sheet = workbook.createSheet(sheetName);
+        int rowCount = 0;
+        int columCount = 0;
+        for (Object[] objs: objects) {
+            row = sheet.createRow(rowCount++);
+            columCount = 0;
+            for(Object obj: objs){
+                cell = row.createCell(columCount++);
+                if(obj instanceof String){
+                    cell.setCellValue((String) obj);
+                } else if(obj instanceof Integer){
+                    cell.setCellValue((Integer) obj);
+                }
+            }
+        }
+        FileOutputStream fos = null;
+        try{
+            fos = new FileOutputStream(filePath);
+            workbook.write(fos);
+        }catch (Exception e){
+            System.out.println("Error when write excel file");
+            e.printStackTrace();
+        }finally {
+            if(fos != null){
+                try {
+                    fos.close();
+                } catch (IOException e) {
+                    System.out.println("Error when write excel file");
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 }

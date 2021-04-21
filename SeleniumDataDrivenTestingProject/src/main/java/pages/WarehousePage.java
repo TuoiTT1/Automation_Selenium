@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
@@ -72,6 +73,9 @@ public class WarehousePage extends BasePage {
     @FindBy(how = How.NAME, using = "parentFacilityId")
     private WebElement parentFacilityId;
 
+    @FindBy(how = How.NAME, using = "ownerPartyId")
+    private WebElement ownerPartyId;
+
     @FindBy(how = How.NAME, using = "defaultWeightUomId")
     private WebElement defaultWeightUomId;
 
@@ -87,7 +91,11 @@ public class WarehousePage extends BasePage {
     @FindBy(how = How.NAME, using = "description")
     private WebElement description;
 
+    @FindBy(how = How.NAME, using = "Update")
+    private WebElement update;
 
+    @FindBy(how = How.XPATH, using = "//div[@class=\"alert alert-danger\"]//li")
+    private WebElement messageCreate;
 
     public WarehousePage(WebDriver driver) {
         super(driver);
@@ -126,6 +134,33 @@ public class WarehousePage extends BasePage {
 
     public void clickCreateNew(){
         createNewBtn.click();
+    }
+
+    public void createNewWarehouse(String warehouseTypeID, String parentWarehouseID, String ownerPartyIdInp,
+                                   String defaultWeightUnit, String inventoryItemType, String name,
+                                   String areaUnit, String productDescription){
+        Select select = new Select(facilityTypeId);
+        select.selectByVisibleText(warehouseTypeID);
+
+        parentFacilityId.sendKeys(parentWarehouseID);
+        ownerPartyId.sendKeys(ownerPartyIdInp);
+
+        select = new Select(defaultWeightUomId);
+        select.selectByVisibleText(defaultWeightUnit);
+
+        defaultInventoryItemTypeId.sendKeys(inventoryItemType);
+
+        facilityName.sendKeys(name);
+        select = new Select(facilitySizeUomId);
+        select.selectByVisibleText(areaUnit);
+
+        description.sendKeys(productDescription);
+
+        update.click();
+    }
+
+    public boolean verifyFailToCreate(){
+        return messageCreate.getText().contains("GenericValue");
     }
 
     public void clickToFirstRsl(){
